@@ -1,15 +1,15 @@
-#Minishell
-#Objectives
+# Minishell
+# Objectives
 Learn how shells create new child processes and connect the I/O to the terminal.
 Gain a better understanding of the fork() function wrapper.
 Learn to correctly execute commands written by the user and treat errors.
-#Statement
+# Statement
 Introduction
 A shell is a command-line interpreter that provides a text-based user interface for operating systems. Bash is both an interactive command language and a scripting language. It is used to interact with the file system, applications, operating system and more.
 
 For this assignment you will build a Bash-like shell with minimal functionalities like traversing the file system, running applications, redirecting their output or piping the output from one application into the input of another. The details of the functionalities that must be implemented will be further explained.
 
-#Shell Functionalities
+# Shell Functionalities
 Changing the Current Directory
 The shell will support a built-in command for navigating the file system, called cd. To implement this feature you will need to store the current directory path because the user can provide either relative or absolute paths as arguments to the cd command.
 
